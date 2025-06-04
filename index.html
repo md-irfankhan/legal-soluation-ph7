@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justice</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .font-poppins {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .font-eb-garamond {
+            font-family: "EB Garamond", serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="max-w-[1170px] mx-auto">
+        <nav class="navbar bg-base-100 pt-4">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-[#707070] font-poppins">
+                        <li><a>Home</a></li>
+                        <li><a>Service</a></li>
+                        <li><a>Cases</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <a class=" text-xl"><img src="./images/logo2.png" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-[#707070] font-poppins ">
+                    <li><a>Home</a></li>
+
+                    <li><a>Service ></a></li>
+                    <li><a>Cases ></a></li>
+                    <li><a>Blog ></a></li>
+                    <li><a>Contact Us ></a></li>
+
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn bg-[#B68C5A] text-white font-poppins">Free Consultation</a>
+            </div>
+        </nav>
+
+
+        <!-- banner  -->
+        <div class="mt-[40px]">
+            <div class="hero  rounded-sm" style="background-image: url(./images/banner.png); ">
+                <div class="hero-overlay"></div>
+                <div class="hero-content lg:py-[104px] lg:px-[240px] text-neutral-content text-center">
+                    <div class="">
+                        <h1 class="mb-5 text-5xl font-bold font-eb-garamond">We Provide Effective Legal Solutions</h1>
+                        <p class="mb-5 font-poppins">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour.
+                        </p>
+                        <div class="flex gap-3 justify-center">
+                            <label class="input">
+                                
+                                <input type="search" required placeholder="Search your service" class="placeholder:text-gray-500" />
+
+                                
+                            </label>
+                            <button class="btn bg-[#B68C5A] text-white border-0">Search </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
